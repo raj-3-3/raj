@@ -1,0 +1,58 @@
+1. Yahoo Finance
+
+Data Includes: Open, High, Low, Close, Volume, Adjusted Close
+
+How to Access:
+
+Yahoo Finance
+
+Use Python libraries like yfinance:
+
+import yfinance as yf
+data = yf.download("AAPL", start="2010-01-01", end="2024-01-01")
+
+
+
+2. Alpha Vantage
+
+Data Includes: Intraday, Daily, Weekly, Monthly stock prices, technical indicators
+
+Access: Free API key from Alpha Vantage
+
+Note: Limited free usage per minute/day
+
+
+3. Kaggle Datasets
+
+Kaggle has many curated datasets for stock price prediction projects. Examples:
+
+Stock Market Data
+
+S&P 500 Historical Data
+
+
+
+4. Quandl
+
+Focus: Financial, economic, and alternative datasets
+
+Access: Quandl
+
+Use quandl Python package with an API key
+
+
+5. Google Finance (via pandas_datareader)
+
+An alternative to Yahoo Finance, although less flexible today.
+
+
+
+---
+
+Optional Features to Enhance Time Series Models
+
+Technical indicators: RSI, MACD, Bollinger Bands (via ta or talib libraries)
+
+Market sentiment (news headlines, social media data)
+
+Economic indicators (inflation, interest rates, GDP)
